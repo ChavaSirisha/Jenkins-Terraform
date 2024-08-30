@@ -1,8 +1,12 @@
+
+<!-- defining shared library in jenkins file -->
 @Library('demo_library@master')_
 stage('demo'){
     echo "Hello..."
     hello 'Bob'
 }
+<!--end of defining shared library in jenkins file -->
+
 
 pipeline {
     agent any
