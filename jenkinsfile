@@ -1,4 +1,4 @@
-@Library('demo-library@master')_
+@Library('demo_library@master')_
 
 stages{
     stage('demo'){
